@@ -6,7 +6,7 @@ This project involves preprocessing a dataset containing employee information. T
 The dataset contains the following columns:
 
 Age: Age of the employee.
-Salary: Salary of the employee.
+Salary: Salary of the employee.\n
 Department: Department in which the employee works.
 Years of Experience: Number of years of experience of the employee.
 Salary: Salary details of the employee.
