@@ -30,6 +30,8 @@ Projects: Number of projects worked on by the employee<br />
 ### Handling Missing Values
 Missing values can impact the analysis and modeling process. We will handle missing values by:
 
+#### using mean/median approach to handle missing value numerical columns like age, salary and projects
+
 Imputing missing numerical values with the mean or median of the respective column.
 Imputing missing categorical values with the mode of the respective column.
 
