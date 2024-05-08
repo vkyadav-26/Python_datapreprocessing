@@ -5,13 +5,25 @@ This project involves preprocessing a dataset containing employee information. T
 ## Dataset Description
 The dataset contains the following columns:
 
-Age: Age of the employee.
+Age: Age of the employee.<br />
 Salary: Salary of the employee.<br />
-Department: Department in which the employee works.
-Years of Experience: Number of years of experience of the employee.
-Salary: Salary details of the employee.
-Education: Educational qualification of the employee
-Projects: Number of projects worked on by the employee
+Department: Department in which the employee works.<br />
+Years of Experience: Number of years of experience of the employee.<br />
+Salary: Salary details of the employee.<br />
+Education: Educational qualification of the employee<br />
+Projects: Number of projects worked on by the employee<br />
+
+
+#   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   Dept        31 non-null     object 
+ 1   Age         30 non-null     float64
+ 2   Experience  29 non-null     object 
+ 3   Salary      31 non-null     float64
+ 4   Education   31 non-null     object 
+ 5   Projects    27 non-null     float64
+dtypes: float64(3), object(3)
+
 
 ## Data Preprocessing
 
