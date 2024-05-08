@@ -14,9 +14,9 @@ Education: Educational qualification of the employee<br />
 Projects: Number of projects worked on by the employee<br />
 
 
-#   Column      Non-Null Count  Dtype  
----  ------      --------------  -----  
- 0   Dept        31 non-null     object 
+| # |  Column |  Non-Null Count | Dtype  |  
+|---|  ------ | --------------  | -----  | 
+| 0 |  Dept   |  31 non-null    | object |
  1   Age         30 non-null     float64
  2   Experience  29 non-null     object 
  3   Salary      31 non-null     float64
