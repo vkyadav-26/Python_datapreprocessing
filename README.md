@@ -22,7 +22,7 @@ Projects: Number of projects worked on by the employee<br />
 | 3 |  Salary     | 31 non-null     | float64 |
 | 4 |  Education  | 31 non-null     | object  |
 | 5 |  Projects   | 27 non-null     | float64 |
-dtypes: float64(3), object(3)
+
 
 
 ## Data Preprocessing
