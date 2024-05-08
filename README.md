@@ -30,15 +30,22 @@ Projects: Number of projects worked on by the employee<br />
 ### Handling Missing Values
 Missing values can impact the analysis and modeling process. We will handle missing values by:
 
-#### using mean/median approach to handle missing value numerical columns like age, salary and projects
+-- Using mean/median approach to handle missing value in numerical columns like age, salary and projects
+-- Converting experience column from object dtype to numeric dtype
+-- masking ".","%","?" like characters in the experience column before converting to numeric dtype
+-- Using mode approach to handle missing value in categorical columns like department and education.
 
-Imputing missing numerical values with the mean or median of the respective column.
-Imputing missing categorical values with the mode of the respective column.
-
-### Outliers Treatment
+### Feature Engineering : Outliers Treatment
 Outliers can significantly affect the statistical properties of a dataset and may distort analysis results. We will treat outliers by:
 
-Identifying outliers using statistical methods such as Z-score or IQR.
-Removing outliers or replacing them with a suitable value based on the context of the data.
-Label Encoding
-Label encoding is a process of converting categorical variables into numerical format. We will perform label encoding for categorical variables like the "Department" column.
+-- Identifying outliers using statistical methods such as Z-score or IQR.
+-- Outliers are treated using trimming method or capping method. Trimming method does not suit the requirement of our dataset as it trims almost half of the dataset.
+
+
+### Label Encoding
+Label encoding is a process of converting categorical variables into numerical format. 
+
+-- Label encoding is done for categorical columns  like the "Department" and "Education" using astype approach and sklearn label encoder.
+-- since the above methods may assign some relationship between the variable and label, it is not very useful if there is no hierarchy or relationship between variables.
+-- Instead we prefer one hot encoding method to label out categorical columns
+
